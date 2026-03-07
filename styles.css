@@ -1,87 +1,95 @@
 body{
-font-family: Arial;
+font-family:'Poppins', sans-serif;
 margin:0;
-background:#f4f4f4;
+background:#f4f6fa;
 }
 
 header{
-background:#0a1f44;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:#0c1e3e;
 color:white;
-text-align:center;
-padding:20px;
 }
 
-.slogan{
-color:#d62828;
-font-weight:bold;
-}
-
-nav{
-margin-top:10px;
+.logo span{
+display:block;
+font-size:12px;
+color:#e63946;
 }
 
 nav a{
 color:white;
-margin:10px;
+margin-left:20px;
 text-decoration:none;
-font-weight:bold;
+font-weight:500;
 }
 
 .hero{
 display:flex;
-justify-content:center;
 align-items:center;
-padding:50px;
+justify-content:space-between;
+padding:80px;
 background:white;
 }
 
-.portrait{
-width:300px;
+.hero-image img{
+width:350px;
 border-radius:8px;
-margin-right:40px;
 }
 
-.intro{
-max-width:600px;
-}
-
-.button{
-background:#d62828;
-color:white;
-padding:12px 20px;
+.btn{
+padding:14px 24px;
+border-radius:6px;
 text-decoration:none;
-display:inline-block;
-margin-top:20px;
-border-radius:5px;
+font-weight:600;
 }
 
-.content{
-padding:50px;
-max-width:900px;
-margin:auto;
+.red{
+background:#e63946;
+color:white;
+}
+
+.outline{
+border:2px solid #e63946;
+color:#e63946;
+}
+
+.about{
+padding:80px;
+text-align:center;
+}
+
+.pillars{
+background:#0c1e3e;
+color:white;
+padding:80px;
+}
+
+.pillar-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:30px;
+}
+
+.pillar{
 background:white;
+color:#333;
+padding:25px;
+border-radius:8px;
 }
 
-.vision-box{
-margin-bottom:30px;
-padding:20px;
-border-left:5px solid #0a1f44;
-background:#f9f9f9;
-}
-
-.donate-button{
-background:#d62828;
+.cta{
+text-align:center;
+padding:60px;
+background:#e63946;
 color:white;
-padding:15px 25px;
-text-decoration:none;
-font-size:18px;
-border-radius:5px;
 }
 
 footer{
 text-align:center;
 padding:20px;
-background:#0a1f44;
+background:#0c1e3e;
 color:white;
-margin-top:40px;
 }
